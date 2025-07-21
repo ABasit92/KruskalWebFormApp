@@ -60,10 +60,3 @@
 - **Data Import:** Excel (via `OpenFileDialog`)  
 - **Image Export:** Bitmap rendering
 
----
-
-## 🚀 How to Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ABasit92/KruskalWebFormApp.git
