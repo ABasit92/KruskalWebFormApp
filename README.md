@@ -1,31 +1,37 @@
 # KruskalWebFormApp
 
-🚀 **KruskalWebFormApp** is a powerful and interactive **C# Windows Forms application** designed to visually demonstrate **Kruskal's Algorithm** for finding the **Minimum Spanning Tree (MST)** of a graph. It provides an intuitive canvas where users can dynamically add, modify, and visualize nodes and edges — either manually or through file imports.
+🚀 **KruskalWebFormApp** is an interactive and intuitive **C# Windows Forms application** that visualizes **Kruskal's Algorithm** for computing the **Minimum Spanning Tree (MST)** of a **weighted graph**. Users can dynamically create, manipulate, import, and export graph structures with a focus on real-world visual clarity and usability.
 
 ---
 
 ## 🧠 Key Features
 
 - 🖱️ **Interactive Node Placement**  
-  Add nodes by clicking anywhere on the canvas — fully customizable positioning.
+  Click anywhere on the canvas to place custom-positioned nodes.
 
 - 🔄 **Draggable Nodes**  
-  Move nodes around after placing them by clicking and dragging to adjust the graph layout.
+  Move existing nodes around the canvas by clicking and dragging for better layout management.
 
-- 📥 **Import from Excel**  
-  Load nodes and edges from an Excel file for batch input (helpful for large datasets or real-world graphs).
+- 📊 **Weighted Graph Support**  
+  Add edges between nodes with custom weights, allowing for accurate MST computation.
+
+- 📥 **Excel Import Support**  
+  Import nodes and edges from an Excel file — perfect for large data sets or structured inputs.
 
 - 🗺️ **Map Integration**  
-  Import a map image (e.g., a city layout) as the canvas background. Nodes can be placed directly over the map to simulate real-world locations.
+  Import map images (e.g., city layouts) and place nodes directly over real-world areas. Great for geography-based MST problems.
 
 - 🧮 **Kruskal's Algorithm Visualization**  
-  Automatically compute the Minimum Spanning Tree (MST) and highlight it on the graph.
+  Automatically calculate and visually render the MST using Kruskal's algorithm.
 
-- ❌ **Rejected Edges Display**  
-  Once the MST is computed, non-MST (rejected) edges are hidden — with the option to bring them back using the **Show All** toggle.
+- ❌ **Rejected Edge Hiding**  
+  After MST computation, non-MST edges are hidden to focus on the final spanning tree. A **Show All** button allows toggling them back.
 
-- 🧭 **Map Toggle Button**  
-  Turn the background map view on or off anytime for clearer graph inspection.
+- 🧭 **Map Toggle Option**  
+  Easily switch the background map on/off for clearer graph visualization.
+
+- 🖼️ **Export Graph as Image**  
+  Export the current canvas view (including graph and map, if enabled) as an image file for reports, documentation, or presentations.
 
 ---
 
@@ -35,17 +41,18 @@
 
 ---
 
-## 📦 Tech Stack
+## ⚙️ Tech Stack
 
 - **Language:** C#  
 - **Framework:** .NET (Windows Forms)  
 - **Graphics:** GDI+  
 - **IDE:** Visual Studio  
-- **Data Support:** Excel Import (via `OpenFileDialog`)
+- **Data Import:** Excel (via `OpenFileDialog`)  
+- **Image Export:** Bitmap rendering
 
 ---
 
-## 📂 How to Run
+## 🚀 How to Run
 
 1. **Clone the repository:**
    ```bash
